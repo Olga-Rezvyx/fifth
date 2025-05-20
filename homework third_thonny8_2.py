@@ -1,4 +1,4 @@
-def form():
-    print("привет", "name", "surname")
+def form(name, surname):
+    print("привет", name, surname)
         
-form()
+form("Ольга", "Резвых")

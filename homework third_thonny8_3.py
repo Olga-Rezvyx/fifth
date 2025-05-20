@@ -1,7 +1,7 @@
-def form(a):
-    a = int(input())
+def form():
+    a = int(input("Введите сторону квадрата:"))
     S = a*a
-    return int (S)
+    P = a*4
+    print("Площадь:", S, "Периметр:", P)
     
-    
-print(form("a"))
+form()
